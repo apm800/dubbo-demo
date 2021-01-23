@@ -24,7 +24,7 @@ public class Swagger2 {
                 .title("dubbo-demo")
                 .description("服务接口文档,严格遵循RESTful API设计规范")
                 .termsOfServiceUrl("http://www.baidu.com")
-                .contact(new Contact("zk","https://mail.163.com/","apm_800@163.com"))
+                .contact(new Contact("zk", "https://mail.163.com/", "apm_800@163.com"))
                 .version("1.0")
                 .build();
 

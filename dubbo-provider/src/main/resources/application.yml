@@ -1,0 +1,18 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    address: 127.0.0.1:2181
+    protocol: zookeeper
+    check: false
+  protocol:
+    name: dubbo
+    #自己定义
+    port: 20881
+    monitor:
+      protocol: register
+    consumer:
+      check: false
+      timeout: 3000
